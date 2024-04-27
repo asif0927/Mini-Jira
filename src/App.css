@@ -1,0 +1,89 @@
+.app{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.taskform{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin-bottom: 30px;
+}
+.task-button{
+  background-color: green;
+  color: white;
+  font-size: 18px;
+  padding: 10px;
+  margin: 10px 0px;
+  border: 1px solid green;
+  border-radius: 10px;
+}
+.taskhead{
+  margin-bottom: 30px;
+}
+.taskTitle{
+  margin: 10px 0px;
+  font-size: 22px;
+}
+.taskinput{
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px 5px;
+}
+.taskherodiv{
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.taskitem{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+  margin: 15px 12px;
+  border: 1px solid green;
+  border-radius: 15px;
+  padding: 10px;
+}
+.removebtn{
+  color: white;
+  background-color: red;
+  border-radius: 7px;
+  font-size: 17px;
+  border: 1px solid red;
+  padding: 5px 15px;
+  margin: 5px 10px;
+}
+.editbtn{
+  color: white;
+  background-color: blue;
+  border-radius: 7px;
+  font-size: 17px;
+  border: 1px solid blue;
+  padding: 5px 15px;
+  margin: 0px 10px;
+}
+@media screen and (max-width: 800px) {
+  .taskform{
+    width: 70%;
+  }
+  .taskhead{
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .taskitem{
+    width: 40%;
+  }
+}
+@media screen and (max-width: 550px) {
+  .taskitem{
+    width: 60%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .taskitem{
+    width: 80%;
+  }
+}
+
